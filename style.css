@@ -264,7 +264,7 @@ section .content p{
 }
 
 /* Desktop view size */
-@media (max-width: 1440px){
+@media (min-width: 1440px){
 body{
     width: 100%;
     display: flex;
