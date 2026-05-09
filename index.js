@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () =>{
 
 openBtn = document.getElementById("open-btn")
 closeBtn = document.getElementById("close-btn")
-sideBar =document.querySelector(".side-bar-container")
+sideBar =document.querySelector(".side-bar")
 arrowDownBtn1 = document.getElementById("arrowDownBtn1")
 arrowUpBtn1 = document.getElementById("arrowUpBtn1")
 arrowDownBtn2 = document.getElementById("arrowDownBtn2")
