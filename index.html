@@ -1,11 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>hello world</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Epilogue" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header>
+      <h1>snap</h1>
+      <div class="container-side-bar">
+        <span class="hamburger" id="open-btn" aria-label="open-btn"
+          >&#9776;</span
+        >
+        <aside id="side-bar-container">
+          <ul class="side-bar">
+            <img
+              src="images/icon-close-menu.svg"
+              alt="close-icon"
+              class="close-btn"
+              id="close-btn"
+              aria-label="close-btn"
+            />
+            <div class="list-container">
+              <div class="container-feature-list">
+                <li>
+                  Features
+                  <span class="arrrow-icon"
+                    ><img
+                      src="images/icon-arrow-down.svg"
+                      alt="icon-arrow-down"
+                      aria-label="icon-arrow-down"
+                      id="arrowDownBtn1"
+                      width="15px"
+                      height="8px"/>
+                    <img
+                      src="images/icon-arrow-up.svg"
+                      alt="icon-arrow-up"
+                      aria-label="icon-arrow-up"
+                      id="arrowUpBtn1"
+                      width="15px"
+                      height="8px"/></span>
+                </li>
+                <ul id="sublist-feature">
+                  <li>
+                    <img src="images/icon-todo.svg" alt="todo icon" /> Todo List
+                  </li>
+                  <li>
+                    <img src="images/icon-calendar.svg" alt="Calendar" />
+                    Calendar
+                  </li>
+                  <li>
+                    <img src="images/icon-reminders.svg" alt="reminder" />
+                    Reminder
+                  </li>
+                  <li>
+                    <img src="images/icon-planning.svg" alt="Planning" />
+                    Planning
+                  </li>
+                </ul>
+              </div>
+              <div class="container-company-list">
+                <li>
+                  Company
+                  <span
+                    ><img
+                      src="images/icon-arrow-down.svg"
+                      alt="arrow down icon"
+                      id="arrowDownBtn2"
+                      width="15px"
+                      height="8px" />
+                    <img
+                      src="images/icon-arrow-up.svg"
+                      alt="arrow up icon"
+                      id="arrowUpBtn2"
+                      width="15px"
+                      height="8px"/></span>
+                </li>
+                <ul id="sublist-company">
+                  <li>History</li>
+                  <li>Our Team</li>
+                  <li>Blog</li>
+                </ul>
+              </div>
+              <li>Careers</li>
+              <li>About</li>
+            </div>
+            <div class="btn-container">
+              <li>
+                <button id="Login-btn">Login</button>
+              </li>
+              <li>
+                <button id="register-btn">Register</button>
+              </li>
+            </div>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <div class="section-container">
+        <h2><span>Make</span> remote work</h2>
+        <section>
+          <div class="content">
+            <p>
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button id="info-btn">Learn more</button>
+          </div>
+
+          <div class="container-image">
+            <ul class="image-list">
+              <li><img src="images/client-databiz.svg" alt="logo-1" /></li>
+              <li><img src="images/client-audiophile.svg" alt="logo-2" /></li>
+              <li><img src="images/client-maker.svg" alt="logo-3" /></li>
+              <li><img src="images/client-meet.svg" alt="logo-4" /></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="desktop-image">
+        <img
+          src="images/image-hero-desktop.png"
+          alt="desktop-image"
+          width="500px"
+          height="600px"
+        />
+      </div>
+    </main>
+  </body>
+
+  <script src="index.js"></script>
 </html>
