@@ -209,7 +209,7 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 45px;
 }
 
 section .content{
