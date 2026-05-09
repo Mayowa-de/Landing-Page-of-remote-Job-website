@@ -9,7 +9,7 @@
 
 
 /* Mobile view size */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
 
 body{
     width: 100%;
