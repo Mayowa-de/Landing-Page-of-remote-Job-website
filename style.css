@@ -298,13 +298,13 @@ h1{
 #side-bar-container{
     width: 100%;
     justify-content: center;
-    position: relative;
     font-family:'Epilogue',sans-serif ;
     padding: 20px;
 }
 
 .side-bar{
-    justify-content: space-between;
+    justify-content: space-between; 
+    align-items: center;
     display: flex;
     gap: 24px;
     list-style: none;
@@ -315,7 +315,7 @@ h1{
     display: none;
 }
  .list-container{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
