@@ -264,7 +264,7 @@ section .content p{
 }
 
 /* Desktop view size */
-@media (min-width: 376px){
+@media screen and (min-width: 768px){
 body{
     width: 100%;
     display: flex;
