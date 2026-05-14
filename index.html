@@ -9,17 +9,20 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preload" href="style.css" as="style"/>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Epilogue" />
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
   <body>
     <header>
+      <div class="container-head">
       <h1>snap</h1>
       <div class="container-side-bar">
         <span class="hamburger" id="open-btn" aria-label="open-btn"
           >&#9776;</span
         >
+        </div>
         <aside id="side-bar-container">
           <ul class="side-bar">
             <img
@@ -139,5 +142,5 @@
     </main>
   </body>
 
-  <script src="index.js"></script>
+  <script src="index.js" defer></script>
 </html>
